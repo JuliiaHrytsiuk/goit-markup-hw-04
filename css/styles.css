@@ -498,7 +498,6 @@ img {
 }
 
 .client-icon {
-  display: block;
   fill: #afb1b8;
 }
 
@@ -506,9 +505,12 @@ img {
   margin-right: 30px;
 }
 
-.client-link :hover,
-.client-link :focus {
-  color: var(--accent-color);
+.client-link:hover {
+  border: 1px solid var(--accent-color);
+  fill: var(--accent-color);
+}
+
+.client-link:hover .client-icon {
   fill: var(--accent-color);
 }
 /* ============= END CLIENTS ============= */
