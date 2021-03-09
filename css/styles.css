@@ -580,6 +580,8 @@ img {
 
 .footer-social-links-icon {
   fill: var(--secondary-text-color);
+  display: block;
+  align-items: center;
 }
 
 .footer-social-network-link {
